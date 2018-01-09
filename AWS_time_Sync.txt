@@ -46,4 +46,8 @@ sudo reboot
 $date
 PST
 now observe time zone changed 
+
+Reference Link:
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html
 ===
+
