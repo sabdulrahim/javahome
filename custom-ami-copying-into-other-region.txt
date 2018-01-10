@@ -1,0 +1,48 @@
+  Aws custom ami creation , copying into other region and launch instance from that ami access web application
+  ============================================================================================================
+  
+   Currently am in  
+   Region:Nvirginia
+   
+1> create a ec2 
+     name of ec2:webserver
+     with all default values ..
+	 
+2> now login to ec2 instance
+   ssh -i abcd.pem  ec2-user@xxxxxxxxx
+   
+ 3> $sudo sudo
+    #cd 
+	#yum install httpd -y
+	#service httpd start
+    #chkconfig httpd on
+	
+    #git clone https://github.com/javahometech/myweb.git
+	#cd myweb/
+	#mvn package
+	 cd target/
+	 mv myweb-0.12.1 myweb
+	 cp -r myweb /var/www/html/
+     cd /var/www/html/
+	 ls
+	 
+	Browse : <ip>:80/myweb/index.jsp
+
+4> create a ami of this ec2	
+   ec2 dashboard >> select ec2 "webserver" >>  actions >> image >> create image Ex name:javahomeami
+	 
+
+5> go to images under images select AMIs , we get in to custom amis dash board, select javahomeami
+   javahomeami >>  actions  >> copy image >> provide dest region name:Ohio and all details required..
+    Ex Destination Region: Ohio
+   
+ 6> move to other region
+   check in images >> amis >>  search owned by me >> we will get ami. named javahomeami
+  
+ 7> go to ec2 dash board 
+  launch ec2 from MY AMIs select javahomeami
+  go with all default instance settings...   and launch as usaual.
+
+  Once ec2 instance up and running 
+  Ready to  browse url <ip>:80/myweb/index.jsp
+  
