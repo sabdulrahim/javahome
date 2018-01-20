@@ -1,2 +1,8 @@
 Certifications
 https://aws.amazon.com/certification/
+git client link
+https://git-scm.com/download/win
+smartgit client link
+http://www.syntevo.com/smartgit/download
+tortoisegit client link
+https://tortoisegit.org/download/
