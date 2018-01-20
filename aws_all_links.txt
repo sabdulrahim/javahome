@@ -6,3 +6,5 @@ smartgit client link
 http://www.syntevo.com/smartgit/download
 tortoisegit client link
 https://tortoisegit.org/download/
+jenkins install on aws linux-ec2 steps link 
+http://bhargavamin.com/how-to-do/install-jenkins-on-amazon-linux-aws/
