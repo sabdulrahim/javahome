@@ -8,3 +8,5 @@ tortoisegit client link
 https://tortoisegit.org/download/
 jenkins install on aws linux-ec2 steps link 
 http://bhargavamin.com/how-to-do/install-jenkins-on-amazon-linux-aws/
+.git internal contents link
+https://medium.freecodecamp.org/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807
