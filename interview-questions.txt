@@ -4,3 +4,5 @@ scenario like write a script to copy lib files from local machines to remote ?
 write pyhon script to deploy lib files to test server ?
 explain and draw the devops architecture in your project ?
 there is continuous build failure from jenkins job, how would you troubleshoot this issue?
+
+does aws swcurity groups has log files ?
